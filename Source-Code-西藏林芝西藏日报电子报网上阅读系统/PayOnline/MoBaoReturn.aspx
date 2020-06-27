@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="PayOnline_MoBaoReturn, App_Web_zbcfx02d" enableEventValidation="false" viewStateEncryptionMode="Never" %>

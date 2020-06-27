@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>838</LabelID>
+    <LabelName>输出电子报指定版面的信息列表</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>电子报</LabelCate>
+    <LabelDesc />
+    <LabelParam>ItemID,1,1,内容ID</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_Content_Publish</LabelTable>
+    <LabelField>Json</LabelField>
+    <LabelWhere>ID=@ItemID</LabelWhere>
+    <LabelOrder />
+    <LabelContent>&lt;script&gt;
+  var jsonArr = JSON.parse('{Field="Json"/}');
+	for (var i = 0; i &lt; jsonArr.length; i++) {
+		var j = jsonArr[i];
+		document.write("&lt;li&gt;&lt;a href='javascript:;' data-cid='news.aspx?id="+j.gid+"' onClick='loadnews(this);'&gt;"+j.remind+"&lt;/a&gt;&lt;/li&gt;")
+    }
+&lt;/script&gt;
+</LabelContent>
+    <LabelCount>1</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>Tibetlz</DataSourceType>
+    <ConnectString>DBO</ConnectString>
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

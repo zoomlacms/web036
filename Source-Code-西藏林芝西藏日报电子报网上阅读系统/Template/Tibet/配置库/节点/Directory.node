@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <NodeID>1</NodeID>
+    <NodeName>西藏电子报</NodeName>
+    <ParentID>0</ParentID>
+    <OrderID>1</OrderID>
+    <Depth>1</Depth>
+    <NodeType>1</NodeType>
+    <NodeListType>1</NodeListType>
+    <Child>0</Child>
+    <NodeBySite>0</NodeBySite>
+  </Table>
+</NewDataSet>

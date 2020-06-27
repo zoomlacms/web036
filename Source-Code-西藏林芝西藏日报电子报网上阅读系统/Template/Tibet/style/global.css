@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+/* 全局样式定义 Powered by Zoomla!逐浪CMS zoomla.cn*/
+a:active {star:expression(this.onFocus=this.blur());} 
+canvas {-ms-touch-action:double-tap-zoom;}
+.relative { position:relative;}
+.padding10{ padding-left:10px; padding-right:10px;}
+.padding5{ padding-left:5px; padding-right:5px;}
+.div_h35 { height:35px;}
+.loginNone{display:none;}
+
+ 
+
+
+
+
+
+@media (min-width: 768px) {
+.bs-header {font-size: 21px;text-align: left;}
+.bs-header h1 {font-size: 60px;line-height: 1;}
+}
+
+@media (min-width: 992px) {
+.bs-header h1,.bs-header p {margin-right: 380px;}
+}
+
+
+
+
+
+
+
+
+/*key:UG93ZXJlZCBieSBab29tbGEh6YCQ5rWqQ01TIHd3d3cuWm9vbWxhLmNu */
